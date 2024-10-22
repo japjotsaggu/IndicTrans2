@@ -8,7 +8,7 @@ tgt_lang_list=${5:-"asm_Beng,ben_Beng,guj_Gujr,hin_Deva,kan_Knda,mal_Mlym,mar_De
 
 python3 train_lora.py \
     --data_dir $data_dir \
-    --model_name $model_name \
+    --model $model_name \
     --output_dir $output_dir \
     --src_lang_list $src_lang_list \
     --tgt_lang_list $tgt_lang_list \
